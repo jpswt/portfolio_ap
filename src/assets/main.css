@@ -1,0 +1,12 @@
+@import './base.css';
+
+#app {
+	width: 100%;
+	font-weight: normal;
+	background-color: #ebebe5;
+	color: hsl(0, 0%, 14%);
+	font-family: 'Heebo';
+}
+p {
+	/* font-size: 1.2rem; */
+}
