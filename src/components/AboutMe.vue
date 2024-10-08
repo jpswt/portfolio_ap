@@ -2,8 +2,31 @@
 	<div class="about-wrapper">
 		<div class="content-wrapper">
 			<div class="content-left">
-				Left stuff testing if the float is going to work the way I want it to in
-				mobile
+				<p>
+					From a young age, my passion for learning and education was clear,
+					inspired by teachers whose lessons have left a lasting impact on me.
+					The desire to pass on that same inspiration to others led me to a
+					career in education. After six years in the classroom, I discovered a
+					deep interest in curriculum development, where my hands-on teaching
+					experience provided valuable insight into the critical role of
+					effective curriculum in student success.
+				</p>
+				<p>
+					This passion guided me to transition into a role as an instructional
+					designer for the United States Army, where I specialized in creating
+					both resident and e-learning courses. My work in this field fueled my
+					enthusiasm for designing engaging e-learning materials and platforms
+					that put the learner at the center of the experience.
+				</p>
+				<p>
+					Now, as a former elementary teacher turned instructional designer, I
+					am dedicated to crafting innovative, learner-centric e-learning
+					products. I am committed to using digital education to break down
+					barriers and make learning accessible to all. By applying
+					human-centered design principles, I strive to develop course materials
+					that cater to diverse learning styles and ensure accessibility for all
+					learners.
+				</p>
 			</div>
 			<div class="content-right">
 				<div class="profile-left">
@@ -24,7 +47,6 @@
 						<div v-if="isClicked">{{ value }}</div>
 					</div>
 				</div>
-				<div class="profile-right"></div>
 			</div>
 		</div>
 	</div>
@@ -45,14 +67,15 @@ export default {
 .about-wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding-top: 5rem;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	justify-content: center;
 }
 
 .content-wrapper {
 	width: 100%;
+	height: 100%;
 	display: flex;
 }
 .content-left {
@@ -111,6 +134,9 @@ export default {
 	width: 26px;
 	height: 30px;
 }
+p {
+	padding-bottom: 1rem;
+}
 
 @media (max-width: 1280px) {
 	.profile-right {
@@ -118,7 +144,7 @@ export default {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	.content-wrapper {
 		flex-direction: column-reverse;
 		justify-content: center;
@@ -134,6 +160,11 @@ export default {
 	}
 	.links {
 		width: 100%;
+	}
+
+	.about-wrapper {
+		padding-top: 5rem;
+		padding-bottom: 8rem;
 	}
 }
 </style>

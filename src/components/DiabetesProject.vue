@@ -1,56 +1,58 @@
 <template>
 	<!-- <h2>Featured Project</h2> -->
-	<div class="project">
-		<img src="../assets/sl_frames/intro.png" alt="" />
-		<button @click="openUrl">Click here to view project!</button>
-	</div>
-	<div class="info-container">
-		<div class="info">
-			<p>
-				This scenario-based eLearning concept project was developed for Type 1
-				Diabetics to practice making decisions on how to manage blood sugar
-				levels effectively based on signs and symptoms.
-			</p>
-			<div class="stack">
-				<div class="center">
-					<h2 class="title">Audience</h2>
-					<p>Type I Diabetics</p>
-				</div>
-				<div class="center">
-					<h2 class="title">Development</h2>
-					<p>Storyline 360 | Canva | Figma</p>
+	<div>
+		<div class="project">
+			<img src="../assets/sl_frames/intro.png" alt="" />
+			<button @click="openUrl">Click here to view project!</button>
+		</div>
+		<div class="info-container">
+			<div class="info">
+				<p>
+					This scenario-based eLearning concept project was developed for Type 1
+					Diabetics to practice making decisions on how to manage blood sugar
+					levels effectively based on signs and symptoms.
+				</p>
+				<div class="stack">
+					<div class="center">
+						<h2 class="title">Audience</h2>
+						<p>Type I Diabetics</p>
+					</div>
+					<div class="center">
+						<h2 class="title">Development</h2>
+						<p>Storyline 360 | Canva | Figma</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="hr">
-		<hr />
-		<!-- <img src="../assets/hr.png" alt="" /> -->
-	</div>
-	<div class="project">
-		<img src="../assets/rise_time.png" alt="" />
-		<button @click="openUrl">Click here to view project!</button>
-	</div>
-	<div class="info-container bottom">
-		<div class="info">
-			<p>
-				Time Management in the Workplace This course covers essential aspects of
-				effective time management, including identifying common challenges,
-				exploring various tools and techniques, and finding a healthy balance
-				between professional duties and personal life. Through interactive
-				scenarios and real-life examples, this course helps learners understand
-				how to implement these strategies in their daily routines to boost
-				productivity and maintain work-life harmony. Audience: Adults Tools:
-				Rise 360
-			</p>
-			<div class="stack">
-				<div class="center">
-					<h2 class="title">Audience</h2>
-					<p>Adults</p>
-				</div>
-				<div class="center">
-					<h2 class="title">Development</h2>
-					<p>Rise 360</p>
+		<div class="hr">
+			<hr />
+			<!-- <img src="../assets/hr.png" alt="" /> -->
+		</div>
+		<div class="project">
+			<img src="../assets/rise_time.png" alt="" />
+			<button @click="openUrl">Click here to view project!</button>
+		</div>
+		<div class="info-container bottom">
+			<div class="info">
+				<p>
+					Time Management in the Workplace This course covers essential aspects
+					of effective time management, including identifying common challenges,
+					exploring various tools and techniques, and finding a healthy balance
+					between professional duties and personal life. Through interactive
+					scenarios and real-life examples, this course helps learners
+					understand how to implement these strategies in their daily routines
+					to boost productivity and maintain work-life harmony. Audience: Adults
+					Tools: Rise 360
+				</p>
+				<div class="stack">
+					<div class="center">
+						<h2 class="title">Audience</h2>
+						<p>Adults</p>
+					</div>
+					<div class="center">
+						<h2 class="title">Development</h2>
+						<p>Rise 360</p>
+					</div>
 				</div>
 			</div>
 		</div>
