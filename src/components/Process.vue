@@ -1,6 +1,7 @@
 <template>
 	<div class="wrapper">
 		<ProcessIntro />
+		<StyleGuide />
 		<WireFrame />
 		<WireFrameSL />
 		<ActionMap />
@@ -14,12 +15,14 @@ import ActionMap from './ActionMap.vue';
 import ProcessIntro from './ProcessIntro.vue';
 import ProtoFinal from './ProtoFinal.vue';
 import StoryBoard from './StoryBoard.vue';
+import StyleGuide from './StyleGuide.vue';
 import WireFrame from './WireFrame.vue';
 import WireFrameSL from './WireFrameSL.vue';
 
 export default {
 	components: {
 		ProcessIntro,
+		StyleGuide,
 		ActionMap,
 		WireFrame,
 		WireFrameSL,

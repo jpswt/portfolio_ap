@@ -108,7 +108,8 @@ export default {
 	padding-bottom: 2rem;
 }
 h2 {
-	padding-top: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 p {

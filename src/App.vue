@@ -54,7 +54,7 @@ export default {
 
 		<RouterView v-else class="wrapper" />
 	</div>
-	<Footer class="footer" v-if="!showMobileNav"></Footer>
+	<Footer class="footer"></Footer>
 </template>
 
 <style scoped>

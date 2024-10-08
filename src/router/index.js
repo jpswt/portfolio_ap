@@ -38,6 +38,14 @@ const router = createRouter({
 			// component: () => import('../components/Contact.vue'),
 		},
 	],
+	scrollBehavior() {
+		// return new Promise((resolve, reject) => {
+		// 	setTimeout(() => {
+		// 		resolve({ top: 0 });
+		// 	}, 500);
+		// });
+		return { top: 0 };
+	},
 	linkExactActiveClass: 'active-link',
 	linkActiveClass: 'active-link',
 });
