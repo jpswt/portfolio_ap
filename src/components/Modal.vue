@@ -1,5 +1,5 @@
 <template>
-	<div class="modal-backdrop">
+	<div @click="close" class="modal-backdrop">
 		<div class="modal">
 			<!-- <header class="modal-header">
 				<slot name="header"> This is the default title! </slot>
@@ -23,6 +23,7 @@
 <script>
 export default {
 	name: 'Modal',
+	props: ['imageURL'],
 	methods: {
 		close() {
 			this.$emit('close');

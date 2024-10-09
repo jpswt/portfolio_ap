@@ -49,10 +49,18 @@
 							:key="index"
 							class="img-wrapper"
 						>
-							<img :src="image.src" alt="" class="sb_img" id="test" />
-						</div>
-						<div v-if="showButton" class="btn-container">
-							<p @click="openModal">Click to enlarge</p>
+							<img
+								@click="openModal(image.src)"
+								:src="image.src"
+								alt=""
+								class="sb_img"
+								id="test"
+							/>
+							<div class="btn-container">
+								<p @click="openModal(image.src)" class="sb_btn">
+									Click to enlarge
+								</p>
+							</div>
 						</div>
 					</td>
 				</tr>
@@ -105,10 +113,18 @@
 							:key="index"
 							class="img-wrapper"
 						>
-							<img :src="image.src" alt="" class="sb_img" id="test" />
-						</div>
-						<div v-if="showButton" class="btn-container">
-							<p @click="openModal">Click to enlarge</p>
+							<img
+								@click="openModal(image.src)"
+								:src="image.src"
+								alt=""
+								class="sb_img"
+								id="test"
+							/>
+							<div class="btn-container">
+								<p @click="openModal(image.src)" class="sb_btn">
+									Click to enlarge
+								</p>
+							</div>
 						</div>
 					</td>
 				</tr>
@@ -123,7 +139,7 @@
 		<template v-slot:header> This is a new modal header. </template>
 
 		<template v-slot:body>
-			<img class="modal-image" src="../assets/sl_frames/alex_all.png" alt="" />
+			<img class="modal-image" :src="isSelectedImage" alt="" />
 		</template>
 
 		<template v-slot:footer> This is a new modal footer. </template>
@@ -166,6 +182,7 @@ export default {
 			isDesktop: true,
 			currentSlide: null,
 			showModal: false,
+			isSelectedImage: null,
 			slides: [
 				{
 					title: 'Course Intro - The Highs and Lows of Diabetes',
@@ -240,10 +257,12 @@ export default {
 		setSlide(slide) {
 			this.currentSlide = slide;
 		},
-		openModal() {
+		openModal(imageURL) {
+			this.isSelectedImage = imageURL;
 			this.showModal = true;
 		},
 		closeModal() {
+			this.isSelectedImage = null;
 			this.showModal = false;
 		},
 	},
@@ -374,6 +393,7 @@ ol {
 
 .img-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
@@ -383,6 +403,11 @@ ol {
 
 .modal-image {
 	width: 900px;
+}
+
+.sb_btn {
+	padding: 0;
+	font-size: 0.9rem;
 }
 
 @media (max-width: 1000px) {
