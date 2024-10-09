@@ -183,11 +183,11 @@ export default {
 						btn: 'Next',
 					},
 					notes: [
-						{ note: 'The next button will advance to slide number 3.' },
+						{ note: 'The next button will advance to slide 3.' },
 						{
 							note: 'Once Alex is selected, a layer appears that gives information about Alex. Each conversation bubble is programmed into the timeline.',
 						},
-						{ note: 'The next button will advance to slide number 3.' },
+						{ note: 'The next button will advance to slide 3.' },
 					],
 					images: [{ src: `${alex}` }],
 				},
@@ -195,7 +195,7 @@ export default {
 					title: 'Scenario: Morning 8:00am',
 					text: {
 						body: 'You wake up feeling a bit off. Click the glucometer to check if your blood sugar is in the normal range.',
-						btn: ' The next button will advance to slide number 7. ',
+						btn: ' The next button will advance to slide 7. ',
 					},
 					notes: [
 						{
@@ -215,10 +215,10 @@ export default {
 					},
 					notes: [
 						{
-							note: 'Choice 1 - Skip breakfast and head out for your morning run will advance to the consequence on slide number 8.',
+							note: 'Choice 1 - Skip breakfast and head out for your morning run will advance to the consequence on slide 8.',
 						},
 						{
-							note: 'Choice 2 - Eat 15 grams of fast-acting carbohydrates, wait 15 minutes, and recheck your blood sugar will advance to correct feedback on slide number 9.',
+							note: 'Choice 2 - Eat 15 grams of fast-acting carbohydrates, wait 15 minutes, and recheck your blood sugar will advance to correct feedback on slide 9.',
 						},
 						{
 							note: 'Info button will go to slide 5 infographic.',
@@ -268,8 +268,15 @@ h2 {
 	font-weight: 500;
 }
 
+p,
+ol,
+span {
+	font-size: 1rem;
+}
+
 p {
 	padding-bottom: 2rem;
+	font-size: 1rem;
 }
 
 .action-map {
@@ -317,6 +324,7 @@ table p,
 ol,
 img {
 	padding-block: 0.5rem;
+	/* padding-right: 0.7rem; */
 }
 
 table thead tr {
@@ -325,7 +333,12 @@ table thead tr {
 
 td {
 	border: 1px solid black;
-	padding-inline: 1rem;
+	padding-left: 1rem;
+	padding-right: 0.3rem;
+}
+
+td img {
+	padding-right: 0.7rem;
 }
 
 .stretch {
@@ -384,7 +397,7 @@ ol {
 	}
 
 	.sb_img {
-		width: max(40%, 300px);
+		width: max(40%, 180px);
 	}
 
 	.tr-flex tr {
@@ -414,7 +427,7 @@ ol {
 	}
 
 	.modal-image {
-		width: 400px;
+		width: 320px;
 	}
 
 	.btn-container {

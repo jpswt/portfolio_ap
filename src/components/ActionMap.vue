@@ -53,7 +53,7 @@ p {
 }
 
 img {
-	width: max(90%, 400px);
+	width: max(90%, 330px);
 	align-self: center;
 }
 

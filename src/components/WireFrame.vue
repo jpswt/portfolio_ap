@@ -60,7 +60,7 @@ export default {
 					src: `${intro}`,
 				},
 				{
-					title: 'Character Intro Slide',
+					title: 'Character Slide',
 					src: `${character}`,
 				},
 				{

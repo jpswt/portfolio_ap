@@ -27,6 +27,10 @@ img {
 	height: 150px;
 }
 
+p {
+	font-size: 1rem;
+}
+
 @media (max-width: 800px) {
 	img {
 		width: 150px;

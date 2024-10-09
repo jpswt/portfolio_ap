@@ -101,4 +101,10 @@ export default {
 	width: 200px;
 	padding: 0.5rem 1rem;
 }
+
+/* @media (max-width: 1000px) {
+	.modal {
+		max-width: 10%;
+	}
+} */
 </style>
