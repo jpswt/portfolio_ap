@@ -259,7 +259,9 @@ export default {
 		},
 		openModal(imageURL) {
 			this.isSelectedImage = imageURL;
-			this.showModal = true;
+			setTimeout(() => {
+				this.showModal = true;
+			}, 100);
 		},
 		closeModal() {
 			this.isSelectedImage = null;
