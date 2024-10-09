@@ -259,7 +259,7 @@ img {
 	}
 
 	input {
-		padding-block: 0.9rem;
+		padding-block: 0.7rem;
 	}
 	button {
 		padding-block: 0.8rem;
