@@ -37,6 +37,7 @@ export default {
 }
 h2 {
 	padding-block: 1rem;
+	font-weight: 500;
 }
 
 img {

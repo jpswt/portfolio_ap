@@ -32,6 +32,7 @@ export default {};
 <style scoped>
 h2 {
 	padding-block: 1rem;
+	font-weight: 500;
 }
 
 p {

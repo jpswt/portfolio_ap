@@ -176,6 +176,7 @@ input {
 	outline: none;
 	background-color: rgb(241, 241, 241);
 	border: 2px solid rgb(43, 137, 171);
+	font-family: 'Raleway';
 }
 
 textarea {
@@ -185,7 +186,7 @@ textarea {
 	border-radius: 8px;
 	background-color: rgb(241, 241, 241);
 	border: 2px solid rgb(43, 137, 171);
-	font-family: 'Heebo';
+	font-family: 'Raleway';
 }
 
 .button {
@@ -215,7 +216,7 @@ h1 {
 	font-weight: 600;
 }
 h2 {
-	font-size: 36px;
+	font-size: 2rem;
 	font-weight: 500;
 }
 

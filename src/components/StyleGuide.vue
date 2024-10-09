@@ -1,7 +1,7 @@
 <template>
 	<h2>Style Guide</h2>
 	<div class="guide-container">
-		<h3>COLORS</h3>
+		<h3>COLOR PALETTE</h3>
 		<div class="colors">
 			<div class="color">
 				<div class="box" :style="{ backgroundColor: '#232A30' }"></div>
@@ -57,6 +57,7 @@ export default {
 
 h2 {
 	padding-block: 1rem;
+	font-weight: 500;
 }
 
 h3 {
@@ -103,6 +104,7 @@ h1 {
 .type-h2 {
 	font-size: 24px;
 	padding: 0;
+	font-weight: 400;
 }
 
 p {

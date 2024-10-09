@@ -5,8 +5,10 @@
 	font-weight: normal;
 	background-color: #ebebe5;
 	color: hsl(0, 0%, 14%);
-	font-family: 'Heebo';
+	font-family: 'Raleway';
 }
-p {
-	/* font-size: 1.2rem; */
+p,
+ol {
+	font-family: 'Open Sans';
+	font-size: 1rem;
 }

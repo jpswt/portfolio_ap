@@ -8,9 +8,7 @@
 			focus group, including diabetes educators and individuals with Type 1
 			diabetes.
 		</p>
-
 		<h2>Full Development</h2>
-
 		<button @click="openUrl">Click here to view project!</button>
 	</div>
 </template>
@@ -28,14 +26,16 @@ export default {
 <style scoped>
 .proto-wrapper {
 	padding-bottom: 10rem;
+	padding-top: 1rem;
 }
 
 h2 {
 	padding-block: 1rem;
+	font-weight: 500;
 }
 
 p {
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 img {

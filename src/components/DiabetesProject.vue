@@ -41,13 +41,12 @@
 					between professional duties and personal life. Through interactive
 					scenarios and real-life examples, this course helps learners
 					understand how to implement these strategies in their daily routines
-					to boost productivity and maintain work-life harmony. Audience: Adults
-					Tools: Rise 360
+					to boost productivity and maintain work-life harmony.
 				</p>
 				<div class="stack">
 					<div class="center">
 						<h2 class="title">Audience</h2>
-						<p>Adults</p>
+						<p>Working Professionals</p>
 					</div>
 					<div class="center">
 						<h2 class="title">Development</h2>
@@ -101,6 +100,7 @@ export default {
 
 h2 {
 	padding-block: 1rem;
+	font-weight: 500;
 }
 .center {
 	text-align: center;
