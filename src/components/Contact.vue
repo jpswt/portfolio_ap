@@ -179,6 +179,7 @@ input {
 	background-color: rgb(241, 241, 241);
 	border: 2px solid rgb(43, 137, 171);
 	font-family: 'Raleway';
+	font-size: 1.1rem;
 }
 
 textarea {
@@ -189,6 +190,7 @@ textarea {
 	background-color: rgb(241, 241, 241);
 	border: 2px solid rgb(43, 137, 171);
 	font-family: 'Raleway';
+	font-size: 1.1rem;
 }
 
 .button {
@@ -204,6 +206,7 @@ button {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+	font-size: 1.1rem;
 }
 
 .message {
@@ -253,6 +256,13 @@ img {
 
 	.form-container {
 		width: 100%;
+	}
+
+	input {
+		padding-block: 0.9rem;
+	}
+	button {
+		padding-block: 0.8rem;
 	}
 }
 </style>
