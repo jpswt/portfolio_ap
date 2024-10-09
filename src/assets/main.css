@@ -12,3 +12,11 @@ ol {
 	font-family: 'Open Sans';
 	font-size: 1rem;
 }
+
+@media (max-width: 800px) {
+	p,
+	ol {
+		font-family: 'Open Sans';
+		font-size: 1.1rem;
+	}
+}

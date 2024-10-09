@@ -1,6 +1,6 @@
 <template>
 	<!-- <h2>Featured Project</h2> -->
-	<div>
+	<div class="project-container">
 		<div class="project">
 			<img src="../assets/sl_frames/intro.png" alt="" />
 			<button @click="openUrl">Click here to view project!</button>
@@ -69,6 +69,10 @@ export default {
 </script>
 
 <style scoped>
+.project-container {
+	padding-inline: 2rem;
+}
+
 .project {
 	display: flex;
 	flex-direction: column;
@@ -146,11 +150,26 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1rem 0rem;
+		/* gap: 1rem 0rem; */
+		padding-bottom: 0;
+	}
+
+	img {
+		width: max(50%, 320px);
+		align-self: center;
 	}
 
 	button {
 		margin-bottom: 2rem;
+	}
+
+	.stack {
+		flex-direction: column;
+		row-gap: 1rem;
+	}
+
+	hr {
+		width: 100%;
 	}
 }
 </style>

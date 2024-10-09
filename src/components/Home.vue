@@ -74,14 +74,14 @@ img {
 		font-weight: 500;
 	}
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 	h1 {
-		font-size: 30px;
+		font-size: 32px;
 		font-weight: 600;
 	}
 	h2 {
-		font-size: 24px;
+		font-size: 26px;
 		font-weight: 500;
 	}
-}
+} */
 </style>
