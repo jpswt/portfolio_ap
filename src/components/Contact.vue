@@ -143,34 +143,36 @@ export default {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
 	gap: 0 2rem;
-	padding: 1rem;
-	padding-top: 4rem;
+	padding-inline: 2rem;
 }
 .form-container {
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;
+	width: 24%;
 }
 .form-wrapper {
 	display: flex;
 	flex-direction: column;
 	place-items: center center;
+	width: 100%;
 }
 .content-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem 0;
+	width: 100%;
 }
 .contact-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	width: 100%;
 }
 
 input {
-	width: 26rem;
+	width: 100%;
 	padding: 0.5rem;
 	border-radius: 8px;
 	outline: none;
@@ -180,7 +182,7 @@ input {
 }
 
 textarea {
-	width: 26rem;
+	width: 100%;
 	height: 8rem;
 	padding: 0.5rem;
 	border-radius: 8px;
@@ -247,6 +249,10 @@ img {
 
 	img {
 		display: none;
+	}
+
+	.form-container {
+		width: 100%;
 	}
 }
 </style>
