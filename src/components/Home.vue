@@ -41,7 +41,7 @@ img {
 	height: 200px;
 }
 
-@media (max-width: 935px) {
+@media (max-width: 968px) {
 	.home-wrapper {
 		flex-direction: column;
 	}
@@ -53,7 +53,7 @@ img {
 	}
 }
 
-@media (max-width: 705px) {
+@media (max-width: 740px) {
 	h1 {
 		font-size: 44px;
 		font-weight: 600;
@@ -64,13 +64,23 @@ img {
 	}
 }
 
-@media (max-width: 625px) {
+@media (max-width: 652px) {
 	h1 {
-		font-size: 34px;
+		font-size: 32px;
 		font-weight: 600;
 	}
 	h2 {
 		font-size: 26px;
+		font-weight: 500;
+	}
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 30px;
+		font-weight: 600;
+	}
+	h2 {
+		font-size: 24px;
 		font-weight: 500;
 	}
 }
