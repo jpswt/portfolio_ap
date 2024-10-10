@@ -3,7 +3,7 @@
 	<div class="project-container">
 		<div class="project">
 			<img src="../assets/sl_frames/intro.png" alt="" />
-			<button @click="openUrl">Click here to view project!</button>
+			<button @click="openDiabetesUrl">Click here to view project!</button>
 		</div>
 		<div class="info-container">
 			<div class="info">
@@ -30,7 +30,7 @@
 		</div>
 		<div class="project">
 			<img src="../assets/rise_time.png" alt="" />
-			<button @click="openUrl">Click here to view project!</button>
+			<button @click="openTimeUrl">Click here to view project!</button>
 		</div>
 		<div class="info-container bottom">
 			<div class="info">
@@ -61,8 +61,14 @@
 <script>
 export default {
 	methods: {
-		openUrl() {
+		openDiabetesUrl() {
 			window.open('https://bluestarlet07.github.io/Diabetes/', '_blank');
+		},
+		openTimeUrl() {
+			window.open(
+				'https://bluestarlet07.github.io/TimeManagement/#/',
+				'_blank'
+			);
 		},
 	},
 };

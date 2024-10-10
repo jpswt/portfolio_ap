@@ -21,7 +21,7 @@ export default {};
 	margin: 0 auto;
 	gap: 0 2rem;
 	padding: 1rem;
-	height: 100%;
+	height: calc((100% - 120px));
 }
 
 /* .content-wrapper {
