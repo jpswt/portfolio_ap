@@ -98,11 +98,11 @@ h3 {
 }
 
 h1 {
-	font-size: 26px;
+	font-size: 22px;
 }
 
 .type-h2 {
-	font-size: 24px;
+	font-size: 20px;
 	padding: 0;
 	font-weight: 400;
 }
