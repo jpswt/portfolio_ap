@@ -21,7 +21,7 @@ export default {};
 	margin: 0 auto;
 	gap: 0 2rem;
 	padding: 1rem;
-	height: calc((100% - 120px));
+	/* height: 100%; */
 }
 
 /* .content-wrapper {
@@ -48,9 +48,9 @@ img {
 }
 
 @media (max-width: 800px) {
-	.home-wrapper {
+	/* .home-wrapper {
 		height: calc((100% + 80px));
-	}
+	} */
 }
 
 @media (max-width: 740px) {
@@ -74,7 +74,7 @@ img {
 		font-weight: 500;
 	}
 }
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
 	h1 {
 		font-size: 32px;
 		font-weight: 600;
@@ -83,5 +83,5 @@ img {
 		font-size: 26px;
 		font-weight: 500;
 	}
-} */
+}
 </style>

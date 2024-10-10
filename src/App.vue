@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
 .wrapper {
-	min-height: calc((100vh - 120px));
+	height: calc((100vh - 120px));
 	margin: 0 auto;
 }
 

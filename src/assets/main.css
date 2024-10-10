@@ -6,7 +6,8 @@
 	background-color: #ebebe5;
 	color: hsl(0, 0%, 14%);
 	font-family: 'Raleway';
-	overflow-y: hidden;
+	overflow-y: auto;
+	overscroll-behavior: contain;
 }
 p,
 ol,
