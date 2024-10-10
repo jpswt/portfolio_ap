@@ -37,6 +37,7 @@ export default {
 
 <style scoped>
 .footer {
+	overflow-x: hidden;
 	height: 120px;
 	position: sticky;
 	bottom: 0;
