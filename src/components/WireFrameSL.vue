@@ -15,7 +15,7 @@ const intro = new URL(`@/assets/sl_frames/intro.png`, import.meta.url).href;
 const character = new URL(`@/assets/sl_frames/character.png`, import.meta.url)
 	.href;
 const infographic = new URL(
-	`@/assets/sl_frames/infographic.png`,
+	`@/assets/sl_frames/Infographic.png`,
 	import.meta.url
 ).href;
 const scenarioChallenge = new URL(
