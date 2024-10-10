@@ -1,14 +1,14 @@
 <template>
 	<h2>Action Map</h2>
 	<p>
-		The clinic set a goal to improve patient management of blood sugar levels.
-		The objective was defined as: “Improve the ability of individuals with Type
-		1 diabetes to manage blood sugar levels effectively throughout the day,
-		reducing the incidence of high and low blood sugar levels by 20%.” I used
-		this goal as the desired outcome in the action map. By incorporating data
-		from patient interviews and input from a diabetes educator, I identified the
-		key actions patients need to take to achieve the goal, as well as the
-		essential knowledge they require.
+		The clinic created a goal to improve patient management of blood sugar
+		levels. The objective was defined as: “Improve the ability of individuals
+		with Type 1 Diabetes to manage blood sugar levels effectively throughout the
+		day, reducing the incidence of high and low blood sugar levels by 20%.” I
+		used this goal as the desired outcome in the action map. By incorporating
+		data from patient interviews and input from a diabetes educator, I
+		identified the key actions patients need to take to achieve the goal, as
+		well as the essential knowledge they require.
 	</p>
 	<div class="action-map">
 		<div class="action-link">
@@ -44,7 +44,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 2rem;
+	/* padding-bottom: 1rem; */
 }
 .action-link {
 	width: 90%;

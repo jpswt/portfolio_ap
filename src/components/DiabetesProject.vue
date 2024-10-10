@@ -35,13 +35,13 @@
 		<div class="info-container bottom">
 			<div class="info">
 				<p>
-					Time Management in the Workplace This course covers essential aspects
-					of effective time management, including identifying common challenges,
-					exploring various tools and techniques, and finding a healthy balance
-					between professional duties and personal life. Through interactive
-					scenarios and real-life examples, this course helps learners
-					understand how to implement these strategies in their daily routines
-					to boost productivity and maintain work-life harmony.
+					This course covers essential aspects of effective time management,
+					including identifying common challenges, exploring various tools and
+					techniques, and finding a healthy balance between professional duties
+					and personal life. Through interactive scenarios and real-life
+					examples, this course helps learners understand how to implement these
+					strategies in their daily routines to boost productivity and maintain
+					work-life harmony.
 				</p>
 				<div class="stack">
 					<div class="center">

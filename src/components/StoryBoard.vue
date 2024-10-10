@@ -187,7 +187,7 @@ export default {
 				{
 					title: 'Course Intro - The Highs and Lows of Diabetes',
 					text: {
-						body: 'You will navigate a scenario-based experience as a Type 1 diabetic. Throughout the journey, you will make informed decisions to effectively manage your blood sugar levels. Your goal is to keep your blood sugar within a healthy range by making informed decisions based on the symptoms you experience.',
+						body: 'You will navigate a scenario-based experience as a Type 1 Diabetic. Throughout the journey, you will make informed decisions to effectively manage your blood sugar levels. Your goal is to keep your blood sugar within a healthy range by making informed decisions based on the symptoms you experience.',
 						btn: 'Continue',
 					},
 					notes: [{ note: 'The continue button will advance to slide.' }],

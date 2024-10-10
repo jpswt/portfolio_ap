@@ -1,10 +1,10 @@
 <template>
 	<div class="wrapper">
 		<ProcessIntro />
-		<StyleGuide />
+		<ActionMap />
 		<WireFrame />
 		<WireFrameSL />
-		<ActionMap />
+		<StyleGuide />
 		<StoryBoard />
 		<ProtoFinal />
 	</div>
@@ -22,10 +22,10 @@ import WireFrameSL from './WireFrameSL.vue';
 export default {
 	components: {
 		ProcessIntro,
-		StyleGuide,
 		ActionMap,
 		WireFrame,
 		WireFrameSL,
+		StyleGuide,
 		StoryBoard,
 		ProtoFinal,
 	},

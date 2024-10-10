@@ -53,10 +53,12 @@ export default {
 	padding: 1rem;
 	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 1rem;
 }
 
 h2 {
-	padding-block: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 	font-weight: 500;
 }
 

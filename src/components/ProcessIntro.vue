@@ -3,7 +3,7 @@
 	<p>
 		With the help of a diabetes education clinic, I conducted several interviews
 		with Type 1 diabetic patients. This provided valuable insights into living
-		with Type 1 diabetes and the challenges of managing blood sugar levels
+		with Type 1 Diabetes and the challenges of managing blood sugar levels
 		effectively. Using data from these interviews, along with guidance from a
 		diabetes educator, I created an action map that informed the development of
 		a text-based storyboard. From there, I designed a wireframe and visual

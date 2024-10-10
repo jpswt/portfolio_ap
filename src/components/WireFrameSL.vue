@@ -92,7 +92,7 @@ export default {
 	grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
 	gap: 1rem 2rem;
 	justify-content: center;
-	padding-bottom: 2rem;
+	/* padding-bottom: 2rem; */
 }
 
 @media (max-width: 800px) {

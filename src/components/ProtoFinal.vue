@@ -6,7 +6,7 @@
 			and gather early feedback from the client and SME. I completed all slides
 			for the first part of the scenario. I shared the prototype with a small
 			focus group, including diabetes educators and individuals with Type 1
-			diabetes.
+			Diabetes.
 		</p>
 		<h2>Full Development</h2>
 		<button @click="openUrl">Click here to view project!</button>
