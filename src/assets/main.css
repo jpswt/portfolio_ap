@@ -6,6 +6,7 @@
 	background-color: #ebebe5;
 	color: hsl(0, 0%, 14%);
 	font-family: 'Raleway';
+	overflow-x: hidden;
 }
 p,
 ol,
