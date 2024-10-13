@@ -50,7 +50,7 @@ img {
 @media (max-width: 800px) {
 	.home-wrapper {
 		/* height: calc((100% + 80px)); */
-		padding-top: 4rem;
+		padding-top: 8rem;
 	}
 }
 
