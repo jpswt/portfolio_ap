@@ -39,7 +39,6 @@ export default {
 .footer {
 	overflow-x: hidden;
 	height: 120px;
-	position: -webkit-sticky;
 	position: sticky;
 	bottom: 0;
 	/* z-index: -100; */
