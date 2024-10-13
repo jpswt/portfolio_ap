@@ -1,7 +1,7 @@
 <template>
 	<nav>
 		<div class="nav-wrapper">
-			<img class="logo" src="../assets/lWUx2JZ.png" alt="" />
+			<img class="logo" src="../assets/logo.png" alt="" />
 			<div class="nav-links">
 				<RouterLink class="link-wrapper" to="/">
 					<HomeIcon class="icon link-text" />
