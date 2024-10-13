@@ -48,9 +48,9 @@ img {
 }
 
 @media (max-width: 800px) {
-	/* .home-wrapper {
+	.home-wrapper {
 		height: calc((100% + 80px));
-	} */
+	}
 }
 
 @media (max-width: 740px) {
