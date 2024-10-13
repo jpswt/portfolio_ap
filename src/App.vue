@@ -59,8 +59,8 @@ export default {
 
 <style scoped>
 .wrapper {
-	min-height: -webkit-fill-available;
-	min-height: calc((100vh - 120px));
+	height: -webkit-fill-available;
+	height: calc((100vh - 120px));
 	margin: 0 auto;
 }
 
