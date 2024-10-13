@@ -59,8 +59,7 @@ export default {
 
 <style scoped>
 .wrapper {
-	height: -webkit-fill-available;
-	height: calc((100vh - 120px));
+	min-height: calc((100vh - 120px));
 	margin: 0 auto;
 }
 
@@ -82,10 +81,9 @@ export default {
 	transition: all 0.3s ease-in;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 	.wrapper {
-		/* mheight: calc((100dvh - 120px)); */
-		height: -webkit-fill-available;
+		min-height: 100vh;
 	}
-}
+} */
 </style>
