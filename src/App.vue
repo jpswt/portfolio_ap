@@ -81,9 +81,9 @@ export default {
 	transition: all 0.3s ease-in;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
 	.wrapper {
-		min-height: 100vh;
+		min-height: calc((100dvh - 120px));
 	}
-} */
+}
 </style>

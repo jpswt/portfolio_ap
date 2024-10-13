@@ -40,7 +40,7 @@ export default {
 	overflow-x: hidden;
 	height: 120px;
 	position: sticky;
-	/* top: calc((100vh - 12px)); */
+	bottom: 0;
 	/* z-index: -100; */
 }
 </style>
