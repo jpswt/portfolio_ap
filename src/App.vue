@@ -85,7 +85,7 @@ export default {
 @media (max-width: 800px) {
 	.wrapper {
 		/* mheight: calc((100dvh - 120px)); */
-		min-height: -webkit-fill-available;
+		height: -webkit-fill-available;
 	}
 }
 </style>
