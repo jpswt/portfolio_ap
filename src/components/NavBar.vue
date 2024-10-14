@@ -163,6 +163,7 @@ nav {
 .logo {
 	width: 55px;
 	height: 55px;
+	margin-left: 0.5rem;
 }
 
 .nav-links {
@@ -307,6 +308,9 @@ nav {
 	.update-icon {
 		width: 30px;
 		height: 30px;
+	}
+
+	.logo {
 	}
 }
 </style>
