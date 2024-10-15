@@ -8,7 +8,7 @@
 		<div class="info-container">
 			<div class="info">
 				<p>
-					This scenario-based eLearning concept project was developed for Type 1
+					This scenario-based eLearning course was developed for Type 1
 					Diabetics to practice making decisions on how to manage blood sugar
 					levels effectively based on signs and symptoms.
 				</p>
@@ -41,7 +41,7 @@
 					and personal life. Through interactive scenarios and real-life
 					examples, this course helps learners understand how to implement these
 					strategies in their daily routines to boost productivity and maintain
-					work-life harmony.
+					a work-life harmony.
 				</p>
 				<div class="stack">
 					<div class="center">
