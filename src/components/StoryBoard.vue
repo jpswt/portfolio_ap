@@ -456,8 +456,5 @@ ol {
 	.modal-image {
 		width: 320px;
 	}
-
-	.btn-container {
-	}
 }
 </style>
