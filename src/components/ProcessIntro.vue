@@ -1,5 +1,8 @@
 <template>
-	<h2>The Process</h2>
+	<h2>
+		The Process:
+		<span class="subheading">The Highs and Lows of Type 1 Diabetes</span>
+	</h2>
 	<p>
 		With the help of a diabetes education clinic, I conducted several interviews
 		with Type 1 Diabetic patients. This provided valuable insights into living
@@ -34,6 +37,10 @@ export default {
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;
+}
+.subheading {
+	font-style: italic;
+	font-weight: 500;
 }
 h2 {
 	padding-block: 1rem;
