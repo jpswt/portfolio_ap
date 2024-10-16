@@ -212,11 +212,11 @@ export default {
 					title: 'Scenario: Morning 8:00am',
 					text: {
 						body: 'You wake up feeling a bit off. Click the glucometer to check if your blood sugar is in the normal range.',
-						btn: ' The next button will advance to slide 7. ',
+						btn: 'The next button will advance to slide 7. ',
 					},
 					notes: [
 						{
-							note: 'Once the glucometer is selected, a layer will appear with an hour glass that is programmed for 3 seconds in the timeline. After the 3 seconds 65mg/dl will appear.',
+							note: 'Once the glucometer is selected, a layer will appear with an hour glass that is programmed for 3 seconds in the timeline. After the 3 seconds, 65mg/dl will appear.',
 						},
 						{
 							note: 'The next button is programmed to appear in the layer timeline once 65mg/dl appears. ',
@@ -238,7 +238,7 @@ export default {
 							note: 'Choice 2 - Eat 15 grams of fast-acting carbohydrates, wait 15 minutes, and recheck your blood sugar will advance to correct feedback on slide 9.',
 						},
 						{
-							note: 'Info button will go to slide 5 infographic.',
+							note: 'Info button will advance to slide 5 infographic.',
 						},
 					],
 					images: [{ src: `${decision}` }],

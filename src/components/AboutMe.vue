@@ -32,9 +32,16 @@
 				<div class="profile-left">
 					<img class="blob" src="../assets/profile.png" alt="" />
 					<div class="links">
-						<a href="mailto:amanda.n.perezid@gmail.com">
-							<img class="email" src="../assets/email.png" alt="" />
-						</a>
+						<div onclick="copyText()">
+							<a href="mailto:amanda.n.perezid@gmail.com">
+								<img
+									class="email"
+									src="../assets/email.png"
+									title="amanda.n.perezid@gmail.com"
+									alt=""
+								/>
+							</a>
+						</div>
 						<a
 							href="https://www.linkedin.com/in/amandalauria-perez/"
 							target="_blank"
@@ -58,7 +65,18 @@ export default {
 		return {
 			isClicked: false,
 			value: '',
+			copyText: '',
+			email: 'amanda.n.perez@gmail.com',
 		};
+	},
+	methods: {
+		async copyText() {
+			try {
+				await navigator.clipboard.writeText(this.email);
+			} catch (error) {
+				console.error('Failed to copy: ' + err);
+			}
+		},
 	},
 };
 </script>
