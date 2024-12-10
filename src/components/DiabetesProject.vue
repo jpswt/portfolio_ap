@@ -95,7 +95,7 @@ export default {
 			);
 		},
 		openCyberUrl() {
-			window.open('https://bluestarlet07.github.io/Diabetes/', '_blank');
+			window.open('https://bluestarlet07.github.io/Cybersecurity/', '_blank');
 		},
 	},
 };
