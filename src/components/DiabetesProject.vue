@@ -2,6 +2,30 @@
 	<!-- <h2>Featured Project</h2> -->
 	<div class="project-container">
 		<div class="project">
+			<img src="../assets/cybersecurity.png" alt="" />
+			<button @click="openDiabetesUrl">Click here to view project!</button>
+		</div>
+		<div class="info-container">
+			<div class="info">
+				<p>
+					How much do you know about cybersecurity? Through gamification, this
+					course covers basic principles of cybersecurity including identifying
+					online threats, creating strong passwords, and avoiding phishing
+					scams.
+				</p>
+				<div class="stack">
+					<div class="center">
+						<h2 class="title">Audience</h2>
+						<p>Adults</p>
+					</div>
+					<div class="center">
+						<h2 class="title">Development</h2>
+						<p>Storyline 360 | Canva</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="project">
 			<img src="../assets/sl_frames/intro.png" alt="" />
 			<button @click="openDiabetesUrl">Click here to view project!</button>
 		</div>
@@ -69,6 +93,9 @@ export default {
 				'https://bluestarlet07.github.io/TimeManagement/#/',
 				'_blank'
 			);
+		},
+		openCyberUrl() {
+			window.open('https://bluestarlet07.github.io/Diabetes/', '_blank');
 		},
 	},
 };
