@@ -3,7 +3,7 @@
 	<div class="project-container">
 		<div class="project">
 			<img src="../assets/cybersecurity.png" alt="" />
-			<button @click="openDiabetesUrl">Click here to view project!</button>
+			<button @click="openCyberUrl">Click here to view project!</button>
 		</div>
 		<div class="info-container">
 			<div class="info">
